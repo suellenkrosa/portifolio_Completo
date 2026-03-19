@@ -113,3 +113,9 @@ footer {
   text-align: center;
   margin-top: 40px;
 }
+
+.img-projeto {
+    max-height: 300px; /* Limita a altura das imagens para o site não ficar infinito */
+    object-fit: cover; /* Faz com que a imagem se ajuste sem distorcer */
+    width: 100%;
+}
